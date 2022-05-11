@@ -1,0 +1,27 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+
+.buttons {
+    @include flexButtons();
+}
+
+.booknow {
+    width: 10em;
+    height: 3em;
+    color: $primary-color;
+    background-color: $secondary-color;
+    margin: $margin-button;
+    font-family: $primary-font;
+    @include flexCenter();
+}
+
+.moreinfo {
+    width: 10em;
+    height: 3em;
+    color: $secondary-color;
+    background-color: $primary-color;
+    margin: $margin-button;
+    font-family: $primary-font;
+    @include flexCenter();
+}
