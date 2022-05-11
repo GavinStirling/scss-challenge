@@ -14,47 +14,41 @@ body {
   height: 75%;
 }
 
-main {
+.content {
   width: 100%;
   height: 100%;
   margin: 4em;
 }
-main h1 {
+.content__heading {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-main p {
+.content__paragraph {
   width: 90%;
   font-family: sans-serif;
   color: lightgray;
   line-height: 25px;
+  margin: 0.5em;
 }
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.booknow {
-  width: 10em;
+.content__buttons {
+  width: 8em;
   height: 3em;
   color: white;
   background-color: black;
-  margin: 2em;
+  margin: 0.5em;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.moreinfo {
-  width: 10em;
+.content__buttons--black {
+  width: 8em;
   height: 3em;
+  margin: 0.5em;
   color: black;
   background-color: white;
-  margin: 2em;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.content__buttons--layout {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }/*# sourceMappingURL=styles.css.map */
